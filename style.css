@@ -330,3 +330,25 @@ footer{
     flex-wrap: wrap;
 }
 
+
+
+  
+  
+  
+  .subfooter-container p {
+    margin: 0; 
+    color: #6c757d; 
+  }
+  
+  .fa-heart {
+    color: #e74c3c; 
+    margin: 0 5px; 
+  }
+  
+  @media (max-width: 768px) {
+    .subfooter-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
